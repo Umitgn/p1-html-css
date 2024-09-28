@@ -5,11 +5,20 @@
 }
 html {
   font-size: 62.5%;
+
 }
 body {
   font-family: "Goldman", cursive;
+  
+ 
 }
-
+.skibidi{
+  background-image: url(img/hackerbg.png);
+  background-size: cover;
+}
+.sigma{
+  background-color: black;
+}
 nav {
   display: flex;
   width: 100%;
@@ -18,7 +27,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
-  background: #00a8c7;
+  background: #333;
   justify-content: space-between;
 }
 nav ul {
@@ -36,4 +45,36 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+
+.goldman-regular {
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer{ 
+  color: #333;
+  height: 60px;
+
+
+
+}
+h1{
+  color: white;
+  font-weight: bold;
+}
+h2{
+  font-weight: bold;
+}
+
+.h2{
+  color: white;
+}
+.h3{
+  color:white;
+}
+.p{
+  color: white;
 }
