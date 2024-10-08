@@ -12,6 +12,7 @@
     
    
   }
+  
   .skibidi{
     background-image: url(img/hackerbg.png);
     background-size: cover;
@@ -137,16 +138,13 @@
       font-size: 30px;
   }
   .flex-container{
+    flex-direction: row-reverse;
     display: flex;
     justify-content: space-evenly;
     margin: 10px;
     padding: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 15px;
-  }
-  
-  .sqltext{
-    color: white;
   }
   .javaimg{
     float: right;
@@ -167,11 +165,12 @@
     height: 300px;
   }
   .sqltext{
+    flex-direction: row-reverse;
     display: flex;
     justify-content: space-evenly;
     margin: 10px;
     padding: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 15px;
   }
   .sqlimg{
