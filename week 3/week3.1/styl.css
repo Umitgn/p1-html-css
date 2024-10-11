@@ -78,3 +78,13 @@ h2{
 .p{
   color: white;
 }
+.javatext{
+  justify-content: space-evenly;
+  display: flex;
+  font-size: large;
+  margin: 20px;
+}
+.javaimg{
+  width: 300px;
+  height: 300px;
+}
