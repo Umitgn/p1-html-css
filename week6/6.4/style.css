@@ -211,7 +211,7 @@ h2{
   display: inline-block;
 }
 
-.dropdown-button {
+.dropdown-button {  
   color: white;
   border: none;
   cursor: pointer;
