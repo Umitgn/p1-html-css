@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>boeking formulier</h1>
+    <h1>Boeking formulier</h1>
     <form action="">
-<label for="firstname">voornaam</label><br>
+<label for="firstname">Voornaam</label><br>
 <input type="text" name="firstname" pattern="[a-zA-Z]">
 <br>
 
@@ -16,17 +16,23 @@
 <input type="text" name="lastname" pattern="[a-zA-Z]">
 <br>
 
-<label for="travellers">Aantal Reisgenoten</label><br>
+<label for="travellers">aantal reizigers</label><br>
+<input type="number" name="travellers" id="travellers" min="1" max="4"><br>
 
-<input type="number" name="travellers" id="travellers" min="1" max="4">
+
+
        
 <label for="date_leave">Datum van vertrek</label>
        <input type="date" name="date_leave" min="2024-09-25">
 
+       <label for="Datetoreturn">Datum van terugkomst</label><br>
+<input type="date" name="Datetoreturn" id="" min="2024-09-25">
+<br><br>
+
 <label for="gender">geslacht</label><br>
 <input type="radio" name="gender" value="man" checked>man 
 <input type="radio" name="gender" value="vrouw">vrouw
-<input type="radio" name="gender" value="porshe gt 911">porshe gt 911
+<input type="radio" name="gender" value="porshe gt 911">porsche gt3 RS
 <br>
 
 <label for="street">straat</label><br>
@@ -54,22 +60,6 @@
     <option value="audi">USA</option>
   </select>
   <br><br>
-  <label for="Datetoleave">Datum van vertrek</label><br>
-<input type="date" name="Datetoleave" id="" min="2024">
-<br><br>
- 
-<label for="Datetoreturn">Datum van terugkomst</label><br>
-<input type="date" name="Datetoreturn" id="" min="2024">
-<br><br>
- 
-<label for="Howmanypeople">aantal</label><br>
-<select name="personen" id="personen">
-  <option value="persoon1">1</option>
-  <option value="personen2">2</option>
-  <option value="personen3">3</option>
-  <option value="personen4">4</option>
-</select>
-<br><br>
  
 <input type="submit" value="Boek nu">
 <br><br>
